@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(lightgoldenrodyellow, lightcoral);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p{
+        text-shadow: 0px 0px 1px black;
+}
+
+
+#pht{
+    /* display: block; */
+    width: 120px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 50%;
+    border: 4px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#age {
+    background: #EFB0C9;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin: 0;
+}
+#date {
+    margin-top: 7px;
+    background: #EFB0C9;
+    padding: 5px 6px;
+    border-radius: 4px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img{
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url("photos/gw.jpg");
+    margin: 5px auto;
+}
+
+#happy:hover{
+    transition-duration: 1s;
+    background-image: url("https://media.giphy.com/media/9o59Pga7BWlDrzWhhh/giphy-downsized.gif");
+}
+
+#hot:hover{
+    transition-duration: 1s;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTQwMmQ2N2Y3MzM3NTAzMTBkZjFlYTY0ZjlhMWI4N2IyMzhlMzcxYyZjdD1n/tZO0zQKgYGz6Q2aA2h/giphy-downsized.gif");
+}
+
+#genius:hover{
+    transition-duration: 1s;     
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDI0MzM2YzNkZjE2MzZlMDFhMjY5NmY2MzMzYTgzMTc3YTJmNWZkYSZjdD1n/oNKLBehxbnoqY/giphy.gif)
+}
+
+#badass:hover{
+    transition-duration: 1s;
+    background-image: url("https://media.giphy.com/media/8pW5AUgsZEDNkgUFsi/giphy.gif");
+}
+
+#cheers {
+    height: 150px;
+    margin: 0 auto 80 0;
+}
+
+#cheers:hover{
+    transition-duration: 420ms;
+    background-image: url(https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy-downsized.gif);
+    background-size: cover;
+}
+
+#footer{
+    font-style: italic;
+    width: 250px;
+    margin: 40px auto 25px;
+}
+
+a {
+    color: white;
+    
+}
